@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+
+  width: 90vw;
+  border: 2px solid black;
+  height: 100px;
+
+  font-size: 24px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.navbar-links {
+  text-decoration: none;
+}
+
+.navbar-links:hover {
+  text-decoration: underline;
+}
+
+.navbar-links {
+  color: white;
+  text-decoration: none;
+  margin-right: 2rem;
+  font-size: 24px;
+}
+
+.logout-button {
+  margin-left: 32px;
+  color: white;
+}
+
+.site-icon {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo-script{
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto Flex', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
